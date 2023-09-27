@@ -1,4 +1,8 @@
 # RYO-YAMADA GFX
-is just for fun is open source bro clone it :v
+is just for fun is open source bro clone it.
 
-&copy;Arya Dewangga Puja | ka-shifuka
+use 
+```
+  pnpm dev 
+```
+for activated tailwindcss building.

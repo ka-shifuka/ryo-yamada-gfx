@@ -917,6 +917,18 @@ video {
     position: absolute;
   }
 
+  .md\:left-14 {
+    left: 3.5rem;
+  }
+
+  .md\:left-20 {
+    left: 5rem;
+  }
+
+  .md\:left-40 {
+    left: 10rem;
+  }
+
   .md\:right-0 {
     right: 0px;
   }
@@ -929,32 +941,8 @@ video {
     top: 0px;
   }
 
-  .md\:top-20 {
-    top: 5rem;
-  }
-
-  .md\:left-10 {
-    left: 2.5rem;
-  }
-
-  .md\:left-14 {
-    left: 3.5rem;
-  }
-
   .md\:top-16 {
     top: 4rem;
-  }
-
-  .md\:left-20 {
-    left: 5rem;
-  }
-
-  .md\:left-40 {
-    left: 10rem;
-  }
-
-  .md\:top-72 {
-    top: 18rem;
   }
 
   .md\:top-64 {
