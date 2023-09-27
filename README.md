@@ -5,4 +5,4 @@ use
 ```
   pnpm dev 
 ```
-for activated tailwindcss building.
+for activated tailwindcss rebuilding.
