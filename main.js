@@ -18,16 +18,19 @@ themeToggler.addEventListener("click", () => {
   const html = document.querySelector("html");
   const browserBar = document.querySelector("#browser-bar");
 
-  html.classList.toggle("dark");
   isDark = !isDark;
   if (isDark) {
+    html.classList.add("dark");
     browserBar.content = "#202020";
     icon.classList.remove("bi-moon-stars");
     icon.classList.add("bi-sun");
   }
   if (!isDark) {
+    html.classList.remove("dark");
     browserBar.content = "#ffffff";
     icon.classList.remove("bi-sun");
     icon.classList.add("bi-moon-stars");
   }
 });
+
+// nav system

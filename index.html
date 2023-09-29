@@ -2,7 +2,7 @@
 <!-- author : arya dewangga puja -->
 <!-- open source quick start -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <!-- meta tag -->
     <meta charset="utf-8" />
@@ -19,7 +19,7 @@
     <!-- fav icon -->
     <link rel="icon" href="/img/ryo-03.png" type="image" />
 
-    <!-- custom style css -->
+    <!-- tailwind style css -->
     <link rel="stylesheet" href="/style.css" />
 
     <!-- other css with cdn-->
@@ -38,7 +38,7 @@
     <!-- title -->
     <title>Ryo Yamada | profile</title>
   </head>
-  <body>
+  <body class="transition-colors duration-300 dark:bg-zinc-800">
     <!-- container -->
     <div class="w-[100vw] h-[100vh]">
       <div
@@ -46,42 +46,32 @@
       >
         <!-- navbar -->
         <nav
-          class="absolute right-3 top-10 w-10 h-72 bg-[rgba(0,0,0,0.08)] rounded-xl text-zinc-800"
+          class="absolute right-3 top-10 w-10 h-72 bg-[rgba(0,0,0,0.08)] rounded-xl text-zinc-800 flex flex-col justify-around items-center z-50"
         >
-          <ul class="w-full h-full flex flex-col justify-around items-center">
-            <li>
-              <a
-                href="#home"
-                class="text-2xl cursor-pointer text-center text-blue-500"
-              >
-                <i class="bi bi-house"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-2xl cursor-pointer text-center text-rose-500"
-              >
-                <i class="bi bi-images"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-2xl cursor-pointer text-center text-amber-300"
-              >
-                <i class="bi bi-person-badge"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-2xl cursor-pointer text-center text-pink-500"
-              >
-                <i class="bi bi-heart"></i>
-              </a>
-            </li>
-          </ul>
+          <a
+            href="#home"
+            class="text-2xl cursor-pointer text-center text-blue-500 hover:brightness-50"
+          >
+            <i class="bi bi-house"></i>
+          </a>
+          <a
+            href="#"
+            class="text-2xl cursor-pointer text-center text-rose-500 hover:brightness-50"
+          >
+            <i class="bi bi-images"></i>
+          </a>
+          <a
+            href="#"
+            class="text-2xl cursor-pointer text-center text-amber-300 hover:brightness-50"
+          >
+            <i class="bi bi-person-badge"></i>
+          </a>
+          <a
+            href="#"
+            class="text-2xl cursor-pointer text-center text-pink-500 hover:brightness-50"
+          >
+            <i class="bi bi-heart"></i>
+          </a>
         </nav>
 
         <!-- text -->
@@ -104,11 +94,11 @@
 
         <!-- images -->
         <div
-          class="absolute top-0 right-0 left-0 w-full h-full -z-10 bg-contain bg-no-repeat bg-right drop-shadow-2xl"
+          class="absolute top-0 right-0 left-0 w-full h-full -z-10 bg-contain bg-no-repeat bg-right drop-shadow-2xl dark:brightness-75"
           style="background-image: url('/img/ryo-01.png')"
         ></div>
         <div
-          class="text-[8rem] h-fit w-fit bg-cover bg-no-repeat bg-center bg-contain bg-clip-text text-transparent drop-shadow-lg absolute top-2 left-16 -z-20 bounce md:left-40"
+          class="text-[7rem] h-fit w-fit bg-cover bg-no-repeat bg-center bg-contain bg-clip-text text-transparent drop-shadow-lg absolute top-2 left-16 -z-20 bounce md:left-40"
           style="background-image: url('/img/ryo-03.png')"
         >
           <i class="bi bi-diamond-fill"></i>
@@ -137,17 +127,9 @@
 
         <!-- diamond -->
         <div
-          class="absolute -z-20 top-0 left-0 right-0 bottom-0 flex justify-center items-center"
+          class="absolute -z-20 top-0 left-0 right-0 bottom-0 flex justify-center items-center dark:brightness-75"
         >
-          <div
-            class="w-52 h-52 rotate-45 bg-amber-100 rounded-2xl"
-            style="
-              box-shadow: 5px 5px 0 hsl(347, 77.2%, 49.8%),
-                -5px -5px 0 hsl(330, 81.2%, 60.4%),
-                -5px 5px 0 hsl(221, 83.2%, 53.3%),
-                5px -5px 0 hsl(221, 83.2%, 53.3%);
-            "
-          ></div>
+          <div class="w-52 h-52 rotate-45 bg-amber-100"></div>
         </div>
         <!-- diamond -->
 
