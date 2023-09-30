@@ -46,7 +46,7 @@
       >
         <!-- navbar -->
         <nav
-          class="absolute right-3 top-10 w-10 h-72 bg-[rgba(0,0,0,0.08)] rounded-xl text-zinc-800 flex flex-col justify-around items-center z-50"
+          class="absolute right-3 top-10 w-10 h-72 bg-[rgba(0,0,0,0.08)] rounded-xl text-zinc-800 flex flex-col justify-around items-center z-50 md:h-10 md:w-72 md:flex-row md:right-32 md:top-1 dark:bg-[rgba(0,0,0,0.2)]"
         >
           <a
             href="#home"
@@ -95,7 +95,7 @@
         <!-- images -->
         <div
           id="home"
-          class="absolute top-0 right-0 left-0 w-full h-full -z-10 bg-contain bg-no-repeat bg-right drop-shadow-2xl dark:brightness-75"
+          class="absolute top-0 right-0 left-0 w-full h-full -z-10 bg-contain bg-no-repeat bg-right drop-shadow-2xl dark:brightness-90"
           style="background-image: url('/img/ryo-01.png')"
         ></div>
         <div
@@ -128,16 +128,16 @@
 
         <!-- diamond -->
         <div
-          class="absolute -z-20 top-0 left-0 right-0 bottom-0 flex justify-center items-center dark:brightness-75"
+          class="absolute -z-20 top-0 left-0 right-0 bottom-0 flex justify-center items-center dark:brightness-90"
         >
           <div class="w-52 h-52 rotate-45 bg-amber-100"></div>
         </div>
         <!-- diamond -->
 
         <!-- floating card -->
-        <div class="mt-20 md:absolute md:top-16 md:left-14">
+        <div class="z-10 mt-20 md:absolute md:top-16 md:left-14">
           <div
-            class="m-5 w-60 h-72 bg-zinc-50 drop-shadow-lg rounded-xl opacity-70 p-4 bounce-4 flex flex-col justify-between"
+            class="m-5 w-60 h-72 bg-zinc-50 drop-shadow-lg rounded-xl opacity-70 p-4 bounce-4 flex flex-col justify-between dark:bg-zinc-600 dark:text-zinc-100"
           >
             <div>
               <div class="flex justify-between">
@@ -166,14 +166,18 @@
       </div>
 
       <!-- other utils-->
-      <div class="dark:brightness-90">
-        <img class="relative top-1.5" src="/img/wave.svg" alt="wave" />
+      <div class="relative bottom-10 z-[-1090] dark:brightness-90">
+        <img
+          class="relative top-1.5 z-[-1000]"
+          src="/img/wave.svg"
+          alt="wave"
+        />
         <div class="bg-[#0099ff] h-fit md:h-[100vh]">
           <div class="p-4 w-screen md:w-[768px] mx-auto">
             <section
               id="gallery"
               role="gallery"
-              class="h-[600px] grid grid-cols-2 grid-rows-3 gap-5 md:grid-cols-6 md:grid-rows-6 drop-shadow"
+              class="h-[600px] mt-20 grid grid-cols-2 grid-rows-3 gap-5 md:grid-cols-6 md:grid-rows-6 drop-shadow"
             >
               <div
                 class="rounded-lg transition-all bg-cover hover:scale-105 md:col-start-1 md:col-span-2 md:row-start-1 md:row-span-2"

@@ -1,4 +1,3 @@
-window.addEventListener("DOMContentLoaded", function () {
   function getQuote() {
     fetch("https://api.quotable.io/random")
       .then((res) => res.json())
@@ -7,6 +6,7 @@ window.addEventListener("DOMContentLoaded", function () {
         swal.fire({ text: data.content });
       });
   }
+window.addEventListener("DOMContentLoaded", function () {
 
   /*
    * theme toggler
